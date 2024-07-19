@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="popup"></div>
+    <div class="addnote">
+        <h3>Create The New Note 📝</h3>
+        <label for="addtitle" style="font-weight: 500;">Title🔖</label>
+        <input type="text" id="addtitle">
+        <label for="textnote" style="font-weight: 500;">Description✒️</label>
+        <textarea id="textnote"></textarea>
+        <div class="adddeleditdiv">
+            <button class="sumtask" onclick="clicking()">Add ➕</button>
+            <button class="cancel" onclick="cancelb()">Cancel 🔙</button>
+        </div>
+        
+    </div> 
+
+
+    <div class="popupedit"></div>
+    <div class="editnote">
+        <h3>Edit Note 🖋️</h3>
+        <label for="edittitle" style="font-weight: 500;">Title 🎯</label>
+        <input type="text" id="edittitle">
+        <label for="edittextarea" style="font-weight: 500;">Description 📝</label>
+        <textarea id="edittextarea"></textarea>
+        <div class="editdiv">
+            <button class="saveedit" style="font-weight: 500;">Save ✅</button>
+            <button class="cancel" onclick="canceln()" style="font-weight: 500;">Cancel 🔙</button>
+        </div>  
+    </div> 
+
+
+    <button class="addnewtask" onclick="adddetfortask()" >
+        <!-- onclick="clicking()" -->
+        Add
+    </button>
+
+    <div class="notesapp">
+        
+        <div class="alltasks">
+            
+        </div>
+    </div>
+    
+</body>
+</html>
