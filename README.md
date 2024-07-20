@@ -10,14 +10,9 @@ Delete Note: Remove a note from the list.
 Installation
 To install and run the Simple Notes App, follow these steps:
 
-Clone the Repository:
+Checkout the simple project by clicking the below link
 
-bash
-Copy code
-git clone https://github.com/yourusername/simple-notes-app.git
-cd simple-notes-app
-Open the Application:
-Open the index.html file in your web browser to start the application.
+https://jeevithk.github.io/simplenotesapp/
 
 Usage
 Creating a Note
